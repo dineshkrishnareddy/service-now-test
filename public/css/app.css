@@ -1,0 +1,92 @@
+body {
+    text-align: center;
+    font-size: 14px;
+    font-family: "Lucida Grande", Helvetica, Arial, Verdana, sans-serif;
+}
+
+#calendar {
+    margin: 0 auto;
+}
+
+.navbar-brand {
+    color: white !important;
+    font-size: 27px;
+}
+.navbar-inverse {
+    background-color: #0683c9;
+    border-radius: 0;
+    border-color: #0683c9;
+}
+
+.custom-heading {
+    font-size: 18px;
+    text-align: left;
+    border-radius: 0;
+    margin-bottom: 0;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+.fc-toolbar.fc-header-toolbar {
+    background-color: #d9edf7;
+    padding-top: 10px;
+    margin-bottom: 0;
+}
+
+.custom-container {
+    margin-top: 20px;
+}
+
+.fc .fc-button-group>:first-child {
+    margin-left: 10px;
+}
+
+.fc .fc-toolbar>*>:first-child {
+    margin-right: 10px;
+}
+
+.bottom-margin {
+    margin-bottom: 20px;
+}
+
+.custom-form-group {
+    margin-bottom: 0;
+}
+
+footer {
+    background-color: #555 !important;
+    color: white !important;
+    padding: 15px !important;
+}
+
+.fc-button {
+    background: white !important;
+}
+
+.fc-toolbar .fc-state-active, .fc-toolbar .ui-state-active {
+    background: rgba(255, 99, 71, 0.8) !important;
+    color: white;
+    box-shadow: inset 0 2px 4px rgba(255, 255, 255, 0.15), 0 1px 2px rgba(255, 255, 255, 0.05);
+}
+
+.fc .fc-toolbar .fc-center {
+    font-size: 18px !important;
+    color: #31708f;
+}
+
+.fc-button-group {
+    margin-left: 213px !important;
+}
+
+.custom-select {
+    position: absolute;
+    width: 200px;
+    top: 12px;
+    margin-left: 10px;
+    height: 28px;
+    vertical-align: middle;
+}
+
+.height-constraint {
+    min-height: 50px;
+}
